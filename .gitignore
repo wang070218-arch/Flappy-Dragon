@@ -1,0 +1,49 @@
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
+*.suo
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log
+*.tlog
+Debug/
+Release/
+x64/
+x86/
+.vs/
+
+# VS Code
+.vscode/
+
+# Build artifacts
+*.o
+*.a
+*.lib
+*.dll
+*.dylib
+
+# Temp files
+*.tmp
+*.temp
+*.zip
+ffmpeg.exe
+ffmpeg_temp.zip
+
+# Python generated
+__pycache__/
+*.pyc
+
+# Image previews (generated)
+design_preview.png
+mascot.png
+
+# IDE
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

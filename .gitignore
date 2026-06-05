@@ -45,6 +45,12 @@ mascot.png
 intro.mp4
 BirdAPP视图.jpg
 
+# Local config
+.claude/
+
+# Dev scripts
+*.py
+
 # IDE
 *.swp
 *.swo

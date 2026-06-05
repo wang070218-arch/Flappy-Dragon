@@ -23,13 +23,13 @@ void CColumn::InitColumn()
 	if (!s_loaded) {
 		for (int i = 0; i < 5; i++) {
 			char p[64];
-			sprintf_s(p, "./res/up_style%d.png", i + 1);
+			sprintf_s(p, "./res/column_up_%d.png", i + 1);
 			loadimage(&s_up[i], p);
-			sprintf_s(p, "./res/up_style%dFront.png", i + 1);
+			sprintf_s(p, "./res/column_up_%d_front.png", i + 1);
 			loadimage(&s_upF[i], p);
-			sprintf_s(p, "./res/low_style%d.png", i + 1);
+			sprintf_s(p, "./res/column_low_%d.png", i + 1);
 			loadimage(&s_low[i], p);
-			sprintf_s(p, "./res/low_style%dFront.png", i + 1);
+			sprintf_s(p, "./res/column_low_%d_front.png", i + 1);
 			loadimage(&s_lowF[i], p);
 			s_upH[i] = s_up[i].getheight();
 		}
